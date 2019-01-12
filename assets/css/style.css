@@ -1,0 +1,147 @@
+.debug{
+	/*border: 1px solid white;*/
+}
+
+/*  SECTIONS  */
+
+:root{
+	/* Body */
+	--bgColor : black;
+	--txColor : white;
+
+	/* Text and tile */
+	--tiFont  : 'OfficeCodeProBold';
+	--txFont  : 'OfficeCodeProDMedium';
+	--tiSize	: 13px;
+	--txSize	: 13px;
+	--lineHeight: 20px;
+
+	/* Start text */
+	--marginToTheTop : 20%;
+}
+
+* {box-sizing: border-box;}
+
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb { background: #FF0000;}
+
+
+body{ 
+	background-color: var(--bgColor);
+	color: var(--txColor);
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  height:100%;
+  font-weight: 400;
+}
+
+.row{
+	margin: 10px;
+}
+
+.prima{
+	height: var(--marginToTheTop);
+}
+
+.seconda{
+	height: 100%;
+}
+
+.header{
+	font-family: var(--tiFont);
+	font-size: 40px;
+	line-height: 40px;
+	margin-left: -13% !important;
+	padding-left: -13% !important;
+}
+
+/*.esperimenti{
+	margin-left: -4% !important;
+	padding-left: -4% !important;
+}*/
+
+.about{
+	text-align: right;
+	font-family: var(--txFont);
+	font-size: var(--txSize);
+}
+
+
+.sezione{
+	padding-bottom: 20px;
+	font-family: var(--tiFont);
+	font-size: var(--tiSize);
+}
+
+p{
+	font-family: var(--txFont); 
+	font-size: var(--txSize);
+	line-height: var(--lineHeight);
+}
+
+.scroll{
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	overflow-y: scroll;
+}
+
+.hash:hover{
+	background-color: white;
+	color: black;
+	padding-left: 4em;
+	transition: all 800ms;
+}
+
+img{
+	width:100%;
+}
+
+
+/* --------------------------------------------------------------- p5 Script */
+/* remove scrollbars */
+canvas {
+	display: block;
+	width: 100%;
+}
+
+/* remove blue outline around canvas */
+canvas:focus {outline:0;}
+
+
+
+/* Font */ /*
+OfficeCodeProBold
+OfficeCodeProBoldItalic
+OfficeCodeProDBold
+OfficeCodeProDBoldItalic
+OfficeCodeProDLight
+OfficeCodeProDLightItalic
+OfficeCodeProDMedium
+OfficeCodeProDMediumItalic
+OfficeCodeProDRegular
+OfficeCodeProDRegularItalic
+OfficeCodeProLight
+OfficeCodeProLightItalic
+OfficeCodeProMedium
+OfficeCodeProMediumItalic
+OfficeCodeProRegular
+OfficeCodeProRegularItalic
+
+
+
+
+
+
+
+
+
+
+
+
+
