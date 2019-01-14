@@ -24,6 +24,7 @@ window.addEventListener("load", function(e){
 		const li = document.createElement("li");
 		li.innerHTML = el;
 		li.classList.add("button-tag");
+		li.classList.add("rese");
 		li.dataset.tag = el;
 		li.dataset.active = false;
 		el_tags.appendChild(li);
@@ -70,16 +71,16 @@ window.addEventListener("load", function(e){
 			holder.classList.add("tag-" + tag);
 		})
 		let html = "";
-		html += "<div class='descrizione'>";
-		html += "<p>"+el.titolo+"</p>";
-		html += "<p class='reveal'>"+el.data+"</p>";
-		html += "<p class='reveal'>"+el.desc+"</p>";
-		html += "<p class='reveal'>";
+		html += "<div class='descrizione margine'>";
+		html += "<p class='stile'>"+el.titolo+"</p>";
+		html += "<p class='reveal stile'>"+el.data+"</p>";
+		html += "<p class='reveal stile'>"+el.desc+"</p>";
+		html += "<p class='reveal stile'>";
 		for (t of el.tags) {
 			html += "#" + t + " ";
  		}
 		html +="</p>";
-		html += "<p class='reveal'><a target='_blank' href='"+el.url+"'>GitHub</a></p>";
+		html += "<p class='reveal stile'><a target='_blank' href='"+el.url+"'>GitHub</a></p>";
 		html += "</div>";
 
 		holder.innerHTML = html;
