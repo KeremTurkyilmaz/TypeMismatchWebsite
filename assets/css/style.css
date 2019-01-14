@@ -14,6 +14,7 @@ body{
   margin-top: 20px;
 }
 
+
 a{	color: white; text-decoration: none;	}
 a:hover{	text-decoration: underline;			}
 
@@ -121,6 +122,9 @@ a:hover{	text-decoration: underline;			}
 	transition: all 300ms;
 }
 
+.tags{
+	line-height: 20px;
+}
 
 
 
