@@ -1,5 +1,5 @@
 .debug{
-	/*border: 1px solid white;*/
+	border: 1px solid white;
 }
 
 /*  SECTIONS  */
@@ -17,7 +17,7 @@
 	--lineHeight: 20px;
 
 	/* Start text */
-	--marginToTheTop : 20%;
+	--marginToTheTop : 30%;
 }
 
 * {box-sizing: border-box;}
@@ -56,21 +56,20 @@ body{
 	font-family: var(--tiFont);
 	font-size: 40px;
 	line-height: 40px;
-	margin-left: -13% !important;
-	padding-left: -13% !important;
 }
 
-/*.esperimenti{
-	margin-left: -4% !important;
-	padding-left: -4% !important;
-}*/
+.col-md-2{
+	float: left;
+	position: relative;
+	height: 100%;
+}
+
 
 .about{
 	text-align: right;
 	font-family: var(--txFont);
 	font-size: var(--txSize);
 }
-
 
 .sezione{
 	padding-bottom: 20px;
