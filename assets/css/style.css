@@ -1,0 +1,103 @@
+.debug{
+	/*border: 1px solid white;*/
+	background: rgb(255,0,0);
+}
+
+/*  SECTIONS  */
+
+:root{
+	/* Body */
+	--bgColor : black;
+	--txColor : white;
+
+	/* Text and tile */
+	--tiFont  : 'Helvetica';
+	--tiSize	: 13px;
+	--txSize	: 13px;
+	--lineHeight: 20px;
+
+	/* Start text */
+	--marginToTheTop : 30%;
+}
+
+* {box-sizing: border-box;}
+
+body{ 
+	background-color: var(--bgColor);
+	color: var(--txColor);
+	font-family: var(--tiFont);
+	line-height: var(--lineHeight);
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+	font-family: var(--tiFont);
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.header nav {
+	font-size: 10px;
+}
+
+.c1 {
+	width: 240px;
+	float: left;
+}
+.c2 {
+	left: 240px;
+	right: 0;
+	position: absolute;
+}
+
+.tags li.disabled {
+	opacity: 0.5;
+}
+
+.tags li {
+	cursor: pointer;
+}
+
+.sketch {
+	background-position: 0 2em;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 240px;
+	float: left;
+}
+
+.sketch.disabled {
+	display: none;
+}
+
+.sketch:hover .descrizione{
+	background-color: rgba(0,0,0,0.8);
+	transition: all 300ms;
+}
+
+.descrizione{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.descrizione p.reveal {
+	opacity: 0;
+	transition: all 300ms;
+}
+
+.sketch:hover .descrizione p.reveal {
+	opacity: 100;
+}
+
+.descrizione p{
+	display: block;
+	border-top: 1px solid white;
+	min-height: 2em;
+}
+
+
