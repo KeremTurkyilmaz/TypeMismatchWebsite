@@ -1,5 +1,6 @@
 window.addEventListener("load", function(e){
 
+
 	// extract all tags:
 	let tags = data.map(function(obj, item){
 		return obj.tags;
@@ -72,7 +73,7 @@ window.addEventListener("load", function(e){
 		})
 		let html = "";
 		html += "<div class='descrizione margine'>";
-		html += "<p class='stile'>"+el.titolo+"</p>";
+		html += "<p class='stile ti'>"+el.titolo+"</p>";
 		html += "<p class='reveal stile'>"+el.data+"</p>";
 		html += "<p class='reveal stile'>"+el.desc+"</p>";
 		html += "<p class='reveal stile'>";
@@ -99,5 +100,8 @@ window.addEventListener("load", function(e){
 			}
 		return result;
 	};
+
+
 })
+
 

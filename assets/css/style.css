@@ -1,5 +1,5 @@
 :root {
-  --strokeWeight: 0.8px solid white; 
+  --strokeWeight: 1px solid white; 
 }
 
 
@@ -16,7 +16,7 @@ body{
 	/*Font */
 	font-family: "Helvetica", "Helvetica-Neue", "Arial", sans-serif;
 	font-size: 13px;
-	line-height: 1.4;
+	line-height: 1.6;
 	font-weight: bold;
   -webkit-font-smoothing: antialiased;
 
@@ -32,7 +32,7 @@ a{color: white; text-decoration: none;	}
 a:hover{	text-decoration: underline;			}
 
 .header{
-	height: 200px;
+	height: 150px;
 	width: 100%;
 }
 
@@ -47,6 +47,7 @@ a:hover{	text-decoration: underline;			}
 	position: relative;
 	float: left;
 	left: 50%;
+	width: 100%;
 }
 
 .info{
@@ -61,14 +62,20 @@ a:hover{	text-decoration: underline;			}
 
 .stile{
 	border-top: var(--strokeWeight);
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .rese{
 	padding-top: 6px;
 	padding-bottom: 10px;
 	line-height: 0.4;
+}
+
+.ti{
+	font-weight: 800;
+	font-size: 14px;
+
 }
 
 .filtri{
@@ -89,9 +96,10 @@ a:hover{	text-decoration: underline;			}
 	background-position: 10px 40px;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	height: 350px;
+	height: 300px;
 	float: left;
 	width: 25%;
+	margin-bottom: 30px;
 }
 
 .tags li.disabled {
