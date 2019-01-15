@@ -1,5 +1,18 @@
 window.addEventListener("load", function(e){
 
+	// sort data per date:
+	data.sort(function(a, b){
+		const da = a.data.split('.');
+		const db = b.data.split('.');
+		// check della data in formato DD.MM.YYYY
+		// a partire dall'anno...
+		for (let i=2; i>=0; i--){
+			if (parseInt(da[i]) > parseInt(db[i])) return false;
+			else if (parseInt(da[i]) < parseInt(db[i])) return true;
+			// continua se uguale...
+		}
+		return false;
+	});
 
 	// extract all tags:
 	let tags = data.map(function(obj, item){
@@ -79,7 +92,7 @@ window.addEventListener("load", function(e){
 		html += "<p class='reveal stile'>";
 		for (t of el.tags) {
 			html += "#" + t + " ";
- 		}
+		}
 		html +="</p>";
 		html += "<p class='reveal stile'><a target='_blank' href='"+el.url+"'>GitHub</a></p>";
 		html += "</div>";
@@ -100,8 +113,4 @@ window.addEventListener("load", function(e){
 			}
 		return result;
 	};
-
-
 })
-
-
