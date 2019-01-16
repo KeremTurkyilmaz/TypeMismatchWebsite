@@ -21,7 +21,7 @@ window.addEventListener("load", function(e){
 
 	// flatten the array:
 	tags = flatten(tags);
-	
+
 	// get unique elements:
 	tags = tags.filter(function(value, index, self){
 		return self.indexOf(value) === index;
@@ -34,27 +34,28 @@ window.addEventListener("load", function(e){
 	const el_tags = document.querySelector(".tags");
 
 
-	tags.forEach(function(el){		
+	tags.forEach(function(el){
 		const li = document.createElement("li");
 		li.innerHTML = el;
 		li.classList.add("button-tag");
 		li.classList.add("rese");
+		li.classList.add("nave");
 		li.dataset.tag = el;
 		li.dataset.active = false;
 		el_tags.appendChild(li);
 		li.addEventListener('click', function(event){
-			const t = event.target;	
+			const t = event.target;
 			const btns = document.querySelectorAll(".button-tag");
 			const projects = document.querySelectorAll(".sketch");
-			if (t.dataset.active == 'false') {	
-				// filtro attivato	
+			if (t.dataset.active == 'false') {
+				// filtro attivato
 				for (btn of btns) {
 					btn.dataset.active = false;
 					btn.classList.add("disabled");
-				}		
-				t.dataset.active = true;			
+				}
+				t.dataset.active = true;
 				t.classList.remove("disabled");
-			
+
 				for (prj of projects) {
 					if (prj.classList.contains("tag-" + t.dataset.tag)) {
 						prj.classList.remove("disabled");
@@ -66,21 +67,22 @@ window.addEventListener("load", function(e){
 				for (btn of btns) {
 					btn.classList.remove("disabled");
 					btn.dataset.active = false;
-				}	
+				}
 				for (prj of projects) {
 					prj.classList.remove("disabled");
-				}					
+				}
 			}
 		});
 	});
 
-	// render sketches:
+	// Legge il file data.js e crea i vari contenti
 	const el_sketches = document.querySelector(".sketches");
 
-	data.forEach(function(el){		
+	data.forEach(function(el){
 		const holder = document.createElement("div");
 		holder.classList.add("sketch");
 		holder.style.backgroundImage = 'url(' + el.img_url_abs + ')';
+		var link = ('url(' + el.img_url_abs + ')');
 		el.tags.forEach(function(tag){
 			holder.classList.add("tag-" + tag);
 		})
@@ -99,6 +101,9 @@ window.addEventListener("load", function(e){
 
 		holder.innerHTML = html;
 		el_sketches.appendChild(holder);
+
+
+
 	});
 
 	// flattens an array:
@@ -113,4 +118,9 @@ window.addEventListener("load", function(e){
 			}
 		return result;
 	};
+
+
+
+
+
 })

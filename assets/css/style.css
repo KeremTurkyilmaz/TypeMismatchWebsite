@@ -1,5 +1,5 @@
 :root {
-  --strokeWeight: 1px solid white; 
+  --strokeWeight: 1px solid white;
 }
 
 
@@ -7,15 +7,15 @@
 html                        { overflow: scroll; overflow-x: hidden; -webkit-font-smoothing: antialiased;  }
 ::-webkit-scrollbar         { width: 0px; background: transparent;              }
 
-body{ 
+body{
 
 	/*BG */
 	background-color: black;
 	color: white;
-	
+
 	/*Font */
 	font-family: "Helvetica", "Helvetica-Neue", "Arial", sans-serif;
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 1.6;
 	font-weight: bold;
   -webkit-font-smoothing: antialiased;
@@ -43,21 +43,21 @@ a:hover{	text-decoration: underline;			}
 	font-weight: 600;
 }
 
-.pad{
-	position: relative;
-	float: left;
-	left: 50%;
-	width: 100%;
+
+.dim{
+	width: 20%;
+	height: auto;
+	font-size: 12px;
 }
 
-.info{
-	width: 20%;
+.reveal{
+	font-size: 13px;
 }
 
 .margine{
 	float: left;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .stile{
@@ -74,8 +74,25 @@ a:hover{	text-decoration: underline;			}
 
 .ti{
 	font-weight: 800;
-	font-size: 14px;
+	font-size: 16px;
+}
 
+.cont{
+	display: none;
+}
+
+.contatti:hover .cont{
+	display: block;
+	height: 100%;
+}
+
+.info{
+	display: none;
+}
+
+.informazioni:hover .info{
+	display: block;
+	height: 100%;
 }
 
 .filtri{
@@ -87,14 +104,20 @@ a:hover{	text-decoration: underline;			}
 	width: 20%;
 }
 
+.stroke{
+	overflow-y: scroll;
+	height: 100%;
+	position: relative;
+}
+
 .c2 {
   left: 20%;
-	position: absolute;
+  position: absolute;
 }
 
 .sketch {
-	background-position: 10px 40px;
-	background-size: 100%;
+	background-position: 14px 40px;
+	background-size: 90%;
 	background-repeat: no-repeat;
 	height: 300px;
 	float: left;
@@ -108,6 +131,8 @@ a:hover{	text-decoration: underline;			}
 
 .tags li {
 	cursor: pointer;
+	text-transform: capitalize;
+	line-height: 0.3;
 }
 
 .descrizione{
@@ -126,22 +151,21 @@ a:hover{	text-decoration: underline;			}
 }
 
 .sketch:hover .descrizione{
-	background-color: rgba(0, 0, 0,1);
+	background-color: rgba(0, 0, 0,0);
 	transition-timing-function: ease-in;
 	transition: all 300ms;
 }
 
 .sketch:hover .descrizione p.reveal {
 	transition-timing-function: ease-in;
+	background-color: rgba(0, 0, 0,1);
 	opacity: 100;
+
 }
 
 .descrizione p.reveal {
 	opacity: 0;
 	transition: all 300ms;
 }
-
-
-
 
 
