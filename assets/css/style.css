@@ -116,8 +116,8 @@ a:hover{	text-decoration: underline;			}
 }
 
 .sketch {
-	background-position: 14px 40px;
-	background-size: 90%;
+	background-position: 15px 40px;
+	background-size: 88%;
 	background-repeat: no-repeat;
 	height: 300px;
 	float: left;
@@ -132,7 +132,7 @@ a:hover{	text-decoration: underline;			}
 .tags li {
 	cursor: pointer;
 	text-transform: capitalize;
-	line-height: 0.3;
+	line-height: 0.4;
 }
 
 .descrizione{
