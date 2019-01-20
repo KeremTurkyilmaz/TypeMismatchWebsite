@@ -79,28 +79,32 @@ window.addEventListener("load", function(e){
 	const el_sketches = document.querySelector(".sketches");
 
 	data.forEach(function(el){
-		const holder = document.createElement("div");
-		holder.classList.add("sketch");
-		holder.style.backgroundImage = 'url(' + el.img_url_abs + ')';
+		const sketch = document.createElement("div");
+		sketch.classList.add("sketch");
+		sketch.classList.add("margine");		
 		var link = ('url(' + el.img_url_abs + ')');
 		el.tags.forEach(function(tag){
-			holder.classList.add("tag-" + tag);
+			sketch.classList.add("tag-" + tag);
 		})
 		let html = "";
-		html += "<div class='descrizione margine'>";
-		html += "<p class='stile ti'>"+el.titolo+"</p>";
-		html += "<p class='reveal stile'>"+el.data+"</p>";
-		html += "<p class='reveal stile'>"+el.desc+"</p>";
-		html += "<p class='reveal stile'>";
+		html += "<div class='bg'></div>";
+		html += "<div class='descrizione'>";
+		html += "<p class='filetto titolazione'>"+el.titolo+"</p>";
+		html += "<p class='ti reveal filetto testo'>"+el.data+"</p>";
+		html += "<p class='ti reveal filetto testo'>"+el.desc+"</p>";
+		html += "<p class='ti reveal filetto hash'>";
 		for (t of el.tags) {
 			html += "#" + t + " ";
 		}
 		html +="</p>";
-		html += "<p class='reveal stile'><a target='_blank' href='"+el.url+"'>GitHub</a></p>";
+		// html += "<p class='reveal filetto'><a target='_blank' href='"+el.url+"'>GitHub</a></p>";
 		html += "</div>";
 
-		holder.innerHTML = html;
-		el_sketches.appendChild(holder);
+		sketch.innerHTML = html;
+
+		sketch.querySelector('.bg').style.backgroundImage = 'url(' + el.img_url_abs + ')';
+
+		el_sketches.appendChild(sketch);
 
 
 
