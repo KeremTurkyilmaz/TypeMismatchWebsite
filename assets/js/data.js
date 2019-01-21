@@ -38,7 +38,7 @@ const data = [
     }, 
     {
         "data": "10.01.2019", 
-        "desc": "Script che permette di generare una tavola che rappresenta la palette cromatica di un video. In questo modo si pu", 
+        "desc": "Script che permette di generare una tavola che rappresenta la palette cromatica di un video. Quello che ne risulta \u00e8 una visione d'insieme di tutti momenti che compogno il filmato.", 
         "img_url": "https://github.com/KeremTurkyilmaz/TypeMismatchSketches/blob/master/Video%20Timeline/image/Timeline.png", 
         "img_url_abs": "https://raw.githubusercontent.com/KeremTurkyilmaz/TypeMismatchSketches/master/Video%20Timeline/image/Timeline.png", 
         "tags": [
@@ -216,7 +216,7 @@ const data = [
     }, 
     {
         "data": "10.01.2019", 
-        "desc": "Sovrapposizione di celle composta da linee. Viene preso un numero random da 1 a 3 che determina il colore delle traccia (R, G, B). Ogni tot secondi viene cancellato lo sfondo per far emergere una nuova composizione. Quando pi\u00f9 celle si sovrappongono si possono notare delle mescolanze additive che fanno emergere altri colori.", 
+        "desc": "Sovrapposizione di celle composte da linee. Viene preso un numero random da 1 a 3 che determina il colore delle traccia (R, G, B). Ogni tot secondi viene cancellato lo sfondo per far emergere una nuova composizione. Quando pi\u00f9 celle si sovrappongono si possono notare delle mescolanze additive che fanno emergere altri colori.", 
         "img_url": "https://github.com/KeremTurkyilmaz/TypeMismatchSketches/blob/master/Celle%20RGB/image/CelleRGB.png", 
         "img_url_abs": "https://raw.githubusercontent.com/KeremTurkyilmaz/TypeMismatchSketches/master/Celle%20RGB/image/CelleRGB.png", 
         "tags": [
@@ -241,7 +241,7 @@ const data = [
     }, 
     {
         "data": "10.01.2019", 
-        "desc": "La Slit Scan Photography e\u0300 una tecnica fotografica e cinematografica che utilizza una fessura mobile per determinare una porzione di pixel da analizzare. \u00c8 stato quindi realizzato un software che permette di ricreare quest'effetto in maniera digitale, evitando cosi le lente operazioni che si dovrebbero compiere se si utilizzasse una stampante.", 
+        "desc": "La Slit Scan Photography e\u0300 una tecnica fotografica e cinematografica che utilizza una fessura mobile per determinare una porzione di pixel da analizzare. \u00c8 stato quindi realizzato un software che permette di ricreare quest'effetto in maniera digitale, evitando cosi lente operazioni che si verificano durante l'utilizzo di uno scanner fisico.", 
         "img_url": "https://github.com/KeremTurkyilmaz/TypeMismatchSketches/blob/master/Slit%20Scanning/image/SlitScan.jpg", 
         "img_url_abs": "https://raw.githubusercontent.com/KeremTurkyilmaz/TypeMismatchSketches/master/Slit%20Scanning/image/SlitScan.jpg", 
         "tags": [
@@ -318,7 +318,7 @@ const data = [
     }, 
     {
         "data": "10.01.2019", 
-        "desc": "Script che permette di generare grafici a torta all'interno del programma Adove inDesign. I dati vanno inseriti in un file CSV che deve essere posizionato nella stessa cartella del progetto.", 
+        "desc": "Script che permette di generare grafici a torta all'interno del programma Adobe inDesign. I dati vanno inseriti in un file CSV che deve essere posizionato nella stessa cartella del progetto.", 
         "img_url": "https://github.com/KeremTurkyilmaz/TypeMismatchSketches/blob/master/PieChart%20CSV/image/PieChartCSV.jpg", 
         "img_url_abs": "https://raw.githubusercontent.com/KeremTurkyilmaz/TypeMismatchSketches/master/PieChart%20CSV/image/PieChartCSV.jpg", 
         "tags": [
@@ -406,7 +406,7 @@ const data = [
     }, 
     {
         "data": "10.01.2019", 
-        "desc": "Attraverso un piccolo script \u00e8 possibile creare un intero libro in modo automatico che mostra tutti i font che l'utente ha installato sul proprio computer. L'output \u00e8 un PDF in alta qualit\u00e0 che pu\u00f2 essere di qualsiasi formato.", 
+        "desc": "Attraverso un piccolo script \u00e8 possibile creare un intero libro in modo automatico che mostra tutti i font che l'utente ha installato sul proprio computer. L'output che ne deriva \u00e8 un PDF in alta qualit\u00e0. Questo libro serve inoltre per navigare in maniera rapida tra tutti i font che si hanno installati.", 
         "img_url": "https://github.com/KeremTurkyilmaz/TypeMismatchSketches/blob/master/Tutti%20i%20font%20sul%20mio%20disco%20rigido/image/TuttiIFontSulMioDiscoRigido.jpg", 
         "img_url_abs": "https://raw.githubusercontent.com/KeremTurkyilmaz/TypeMismatchSketches/master/Tutti%20i%20font%20sul%20mio%20disco%20rigido/image/TuttiIFontSulMioDiscoRigido.jpg", 
         "tags": [
@@ -444,7 +444,7 @@ const data = [
     }, 
     {
         "data": "10.01.2019", 
-        "desc": "Questo script permette di impaginare in maniera automatica la bibliografia di una ricerca. Tutti i dati devono essere inseriti all'interno del file \"Bibliografia.csv\" rispettando l'ordine dichiarto all'inzio. I dati e il file inDesign devono essere nella stessa cartella, altrimenti il programma restituisce errore.", 
+        "desc": "Questo script permette di impaginare in maniera automatica la bibliografia di una ricerca. Tutti i dati devono essere inseriti all'interno del file \"Bibliografia.csv\" rispettando l'ordine dichiarto all'inzio. I dati e il file inDesign devono essere nella stessa cartella, altrimenti il programma restituisce un errore.", 
         "img_url": "https://github.com/KeremTurkyilmaz/TypeMismatchSketches/blob/master/Bibliografia%20CSV/image/Bibliografia.jpg", 
         "img_url_abs": "https://raw.githubusercontent.com/KeremTurkyilmaz/TypeMismatchSketches/master/Bibliografia%20CSV/image/Bibliografia.jpg", 
         "tags": [
@@ -456,7 +456,7 @@ const data = [
     }, 
     {
         "data": "10.01.2019", 
-        "desc": "Generatore di poster tipografici. Il software Tipografia Espressiva presenta una serie di opzioni che permettono di gestire in maniera dinamica i vari elementi. Gli slider in alto servono per controllare tutte le variabili tipografiche del testo. I bottoni Mode 1 e Mode 2 servono per cambiare la sorgente del testo: la modalita\u0300 1 carica l'intero alfabeto nella casella, mentre la seconda invece permette all'utente di scrivere. I bottoni B/W W/C C/C servono per cambiare il colore di sfondo e del testo.", 
+        "desc": "Generatore di poster tipografici. Il software Tipografia Espressiva presenta una serie di opzioni che permettono di gestire in maniera dinamica i vari elementi. Gli slider in alto servono per controllare tutte le variabili tipografiche del testo. I bottoni Mode 1 e Mode 2 servono per cambiare la sorgente del testo: la modalita\u0300 1 carica l'intero alfabeto nella casella, mentre la seconda invece permette all'utente di scrivere.", 
         "img_url": "https://github.com/KeremTurkyilmaz/TypeMismatchSketches/blob/master/Tipografia%20Espressiva/image/TipografiaEspressiva.jpg", 
         "img_url_abs": "https://raw.githubusercontent.com/KeremTurkyilmaz/TypeMismatchSketches/master/Tipografia%20Espressiva/image/TipografiaEspressiva.jpg", 
         "tags": [
@@ -469,7 +469,7 @@ const data = [
     }, 
     {
         "data": "10.01.2019", 
-        "desc": "Viene caricato un file audio che modifica e colora, in base alla suono, i diversi rettangoli presenti nello spazio 3D.", 
+        "desc": "Viene caricato un file audio che modifica e colora, in base alla suono, i diversi rettangoli presenti nello spazio 3D. Il numero di colonne viene generato in maniera casualte ogni tot secondi.", 
         "img_url": "https://github.com/KeremTurkyilmaz/TypeMismatchSketches/blob/master/Visualizzazione%20musicale/image/VisualizzazioneAudio.png", 
         "img_url_abs": "https://raw.githubusercontent.com/KeremTurkyilmaz/TypeMismatchSketches/master/Visualizzazione%20musicale/image/VisualizzazioneAudio.png", 
         "tags": [
