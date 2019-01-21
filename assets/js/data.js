@@ -269,7 +269,7 @@ const data = [
     }, 
     {
         "data": "10.01.2019", 
-        "desc": "Esperimento sulla percezione visiva che prende come riferimento le opere della corrent Op Art. Ogni cella \u00e8 composta da un cerchio che viene suddiviso in diverse sezione. Il colore applicato determina poi l'effetto ottico finale, alcuni pattern prodotti risultano pi\u00f9 regolari, mentre altri sono totalmente casuali.", 
+        "desc": "Esperimento sulla percezione visiva che prende come riferimento le opere della corrent Op Art. Ogni cella \u00e8 composta da un cerchio che viene suddiviso in diverse sezioni. Il colore applicato determina poi l'effetto ottico finale, alcuni pattern prodotti risultano pi\u00f9 regolari, mentre altri sono totalmente casuali.", 
         "img_url": "https://github.com/KeremTurkyilmaz/TypeMismatchSketches/blob/master/Effetto%20Ottico/image/EffettoOttico.png", 
         "img_url_abs": "https://raw.githubusercontent.com/KeremTurkyilmaz/TypeMismatchSketches/master/Effetto%20Ottico/image/EffettoOttico.png", 
         "tags": [
