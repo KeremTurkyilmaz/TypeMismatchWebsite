@@ -242,15 +242,15 @@ const data = [
     {
         "data": "10.01.2019", 
         "desc": "La Slit Scan Photography e\u0300 una tecnica fotografica e cinematografica che utilizza una fessura mobile per determinare una porzione di pixel da analizzare. \u00c8 stato quindi realizzato un software che permette di ricreare quest'effetto in maniera digitale, evitando cosi lente operazioni che si verificano durante l'utilizzo di uno scanner fisico.", 
-        "img_url": "https://github.com/KeremTurkyilmaz/TypeMismatchSketches/blob/master/Slit%20Scanning/image/SlitScan.jpg", 
-        "img_url_abs": "https://raw.githubusercontent.com/KeremTurkyilmaz/TypeMismatchSketches/master/Slit%20Scanning/image/SlitScan.jpg", 
+        "img_url": "https://github.com/KeremTurkyilmaz/TypeMismatchSketches/blob/master/Slit%20Scan/image/SlitScan.jpg", 
+        "img_url_abs": "https://raw.githubusercontent.com/KeremTurkyilmaz/TypeMismatchSketches/master/Slit%20Scan/image/SlitScan.jpg", 
         "tags": [
             "processing", 
             "software", 
             "immagini"
         ], 
         "titolo": "Slit Scan", 
-        "url": "https://github.com/KeremTurkyilmaz/TypeMismatchSketches/tree/master/Slit Scanning"
+        "url": "https://github.com/KeremTurkyilmaz/TypeMismatchSketches/tree/master/Slit Scan"
     }, 
     {
         "data": "10.01.2019", 
