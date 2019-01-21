@@ -88,7 +88,7 @@ window.addEventListener("load", function(e){
 		})
 		let html = "";
 		html += "<div class='bg'></div>";
-		html += "<div class='descrizione'>";
+		html += "<div class='descrizione noFiletto'> <a target='_blank' href='"+el.url+"'>";
 		html += "<p class='filetto titolazione'>"+el.titolo+"</p>";
 		html += "<p class='ti reveal filetto testo'>"+el.data+"</p>";
 		html += "<p class='ti reveal filetto testo'>"+el.desc+"</p>";
@@ -98,12 +98,9 @@ window.addEventListener("load", function(e){
 		}
 		html +="</p>";
 		// html += "<p class='reveal filetto'><a target='_blank' href='"+el.url+"'>GitHub</a></p>";
-		html += "</div>";
-
+		html += "</a></div>";
 		sketch.innerHTML = html;
-
 		sketch.querySelector('.bg').style.backgroundImage = 'url(' + el.img_url_abs + ')';
-
 		el_sketches.appendChild(sketch);
 
 

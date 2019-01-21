@@ -1,1 +1,5 @@
 https://keremturkyilmaz.github.io/TypeMismatchWebsite/
+
+La programmazione non è solo una tecnologia e non è solo uno strumento informatico ma può anche essere un modo di immaginare, un modo di vivere la propria creatività. È dal mondo delle idee che prendono forma i contenuti del mondo reale. Il mio progetto di tesi si concentra inizialmente sulle fondamentali tappe storiche che hanno portato alla nascita e all’impiego della programmazione come strumento di sviluppo e produzione e secondariamente come mezzo di espressione. 
+
+In questa riflessione si inserisce il mio progetto di tesi: Type Mismatch non ha come intento quello di giungere ad un risultato assoluto e definitivo, ma vuole piuttosto dimostrare quali nuove strade e possibili strumenti esistono per realizzare artefatti di comunicazione visiva. Questo percorso vuole dunque mostrare una metodologia di progettazione alternativa a quella tradizionale e fornire ai comunicatori visivi, tramite la condivisione della ricerca e soprattutto del codice, una serie di spunti teorici e pratici.
