@@ -75,7 +75,7 @@ window.addEventListener("load", function(e){
 		});
 	});
 
-	// Legge il file data.js e crea i vari contenti
+	// Legge il file data.js e crea i vari contenuti
 	const el_sketches = document.querySelector(".sketches");
 
 	data.forEach(function(el){

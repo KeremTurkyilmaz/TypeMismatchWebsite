@@ -1,4 +1,4 @@
-const data = [
+ const data = [
     {
         "data": "10.01.2019", 
         "desc": "Basato sull'esperimento \"FaceMix\" questo script cerca di creare e visualizzare una possibile installazione. L'idea \u00e8 quella di creare dei piedistalli che presentano la biografia di ogni persona e il suo volto. Le immagini vengono proiettate su una superfie di vetro con un'opacit\u00e0. In questo modo posizionandosi all'inizio dell'installazione si pu\u00f2 vedere la struttura \"media\" di un viso.", 
